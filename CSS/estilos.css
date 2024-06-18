@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    text-align: justify;
+    background-color:#F2C9BB;
+}
+
+
+header {
+    background-color: #D92534;
+    width: 400px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    position: relative;
+    z-index: 1;
+}
+
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: "Jersey 10", sans-serif;
+    font-size: 65px;
+}
+
+h3{
+    width: 75px;
+    height: 34px;
+    padding: 15px;
+    display: block;
+    background-image: url(../Imagenes/rectangulo.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0% 57%;
+    text-align: center;
+    color: #D92534;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    animation: miNombre 6s 3s 1 both;
+
+
+}
+
+@keyframes miNombre{
+    from {transform: translateY(-62px) rotate(45deg);}
+    to {transform: translateY(0px) rotate(0deg);}
+}
+
+p {
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+}
+
+h2 {
+    background-color: #f5bca9;
+    width: 100%;
+    text-align: center;
+    color: #D92534;
+    font-family:  "Jersey 10", sans-serif;
+    font-size: 40px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h4 a {
+    text-decoration: none;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    background-image: url(../Imagenes/rectangulo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #D92534;
+    width: 120px;
+    height: 60px;
+    display: block;
+    margin: 4.8% auto;
+    line-height: 63px;
+    padding: 3px;
+    transition: all 3s;
+    
+}
+
+h4 a:hover {
+    text-decoration: underline;
+    transform: translateY(15px);
+}
+
+main {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+
+div {
+    width: 30%;
+    margin-bottom: 2%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    text-align: center;  
+}
+
+img {
+    width: 100%;
+}
+
+#video {
+    width: 90%;
+    margin: auto;
+}
+
+video {
+    width: 50%;
+    margin-left: auto;
+}
+
+h5 {
+    background-image: url(../Imagenes/Animación2.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 300px;
+    display: block;
+    margin: -16.5% 70%;
+    position: absolute;
+    animation: miImagen 1.5s infinite steps(2);
+}
+
+@keyframes miImagen {
+    
+   from {
+    background-position: 0px 0px;
+   }
+
+   to {
+    background-position: 0px -600px ;
+
+   }
+}
+
+h6 {
+    background-image: url(../Imagenes/AnimaciónFlor.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 250px;
+    display: block;
+    margin: -29% -1%;
+    position: absolute;
+    animation: miFlor 3s infinite steps(4);
+
+}
+
+@keyframes miFlor {
+
+   from{
+    background-position: 0px 0px;
+   }
+
+   to{
+    background-position: 0px -1000px;
+   }
+}
+
+#flor {
+    width: 8%;
+    margin: -30% 92%;
+    position: absolute;
+    transform: rotate(90deg);
+}
+
+p a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #D92534;
+    font-weight: 500;
+}
+
+div p {
+    background-color: #f5bca9;
+    margin: 1%;
+    font-weight: 500;
+}
+
+#videoTitulo {
+    width: 50%;
+    margin-left: 25%;
+}
+
+#gracias {
+    width: 75px;
+    height: 34px;
+    padding: 15px;
+    display: block;
+    background-image: url(../Imagenes/rectangulo.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 0% 90%;
+    text-align: center;
+    color: #D92534;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+
+}
+
